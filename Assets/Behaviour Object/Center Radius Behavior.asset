@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9579edcfd94499e44a4c09f18af5bb07, type: 3}
+  m_Name: Center Radius Behavior
+  m_EditorClassIdentifier: 
+  behaviors:
+  - {fileID: 11400000, guid: a1af7e107d99307448d3358b06802e10, type: 2}
+  - {fileID: 11400000, guid: 79f00695005b6ad4e9483b02ce12b801, type: 2}
+  - {fileID: 11400000, guid: 7dafe28e2cc7060469836f2fd038a06b, type: 2}
+  - {fileID: 11400000, guid: c205f3ca7823a714abaabb5a31946134, type: 2}
+  weights:
+  - 4
+  - 1
+  - 3
+  - 0.5
